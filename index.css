@@ -145,12 +145,21 @@ footer {
     color: #F7F2E7;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     min-height: 100vh;
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    padding: 20px;
+    align-items: center;
+    padding:  40px 20px;
     background: linear-gradient(#2B2D42, #5B2A86);
+    background-attachment: fixed;
     position: relative;
     overflow-x: hidden;
 }
